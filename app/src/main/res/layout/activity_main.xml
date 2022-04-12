@@ -26,7 +26,7 @@
                android:orientation="horizontal">
 
                <Button
-                   android:id="@+id/button2"
+                   android:id="@+id/backButtonEditProfile"
                    android:layout_width="45dp"
                    android:layout_height="48dp"
                    android:layout_marginTop="20dp"
@@ -36,7 +36,7 @@
                    android:textSize="30dp" />
 
                <ImageView
-                   android:id="@+id/imageView3"
+                   android:id="@+id/logoProjectEditProfile"
                    android:layout_width="match_parent"
                    android:layout_height="95dp"
                    android:paddingRight="@android:dimen/app_icon_size"
@@ -56,7 +56,7 @@
                    android:orientation="vertical">
 
                    <ImageView
-                       android:id="@+id/imageView"
+                       android:id="@+id/fotoAuthorEditProfile"
                        android:layout_width="match_parent"
                        android:layout_height="wrap_content"
                        tools:srcCompat="@tools:sample/avatars" />
@@ -192,7 +192,7 @@
                    android:textSize="12sp" />
 
                <EditText
-                   android:id="@+id/editTextBioAuthorEditProfile2"
+                   android:id="@+id/editBioAuthorEditProfile2"
                    android:layout_width="match_parent"
                    android:layout_height="48dp"
                    android:background="@drawable/custom_input"
@@ -213,7 +213,7 @@
                    android:textSize="12sp" />
 
                <EditText
-                   android:id="@+id/editTextInstagramAuthorEditProfile3"
+                   android:id="@+id/editInstagramAuthorEditProfile3"
                    android:layout_width="match_parent"
                    android:layout_height="48dp"
                    android:background="@drawable/custom_input"
@@ -234,7 +234,7 @@
                    android:textSize="12sp" />
 
                <EditText
-                   android:id="@+id/editTextYoutubeAuthorEditProfile4"
+                   android:id="@+id/editYoutubeAuthorEditProfile4"
                    android:layout_width="match_parent"
                    android:layout_height="48dp"
                    android:background="@drawable/custom_input"
@@ -256,7 +256,7 @@
                    android:text="Upload Avatar" />
 
                <ImageView
-                   android:id="@+id/imageGambar"
+                   android:id="@+id/gambarAvatarEditProfile"
                    android:layout_width="match_parent"
                    android:layout_height="wrap_content"
                    tools:srcCompat="@tools:sample/avatars" />
@@ -271,7 +271,7 @@
                    android:text="Upload Cover" />
 
                <ImageView
-                   android:id="@+id/imageGambar2"
+                   android:id="@+id/gambarCoverEditProfile"
                    android:layout_width="match_parent"
                    android:layout_height="wrap_content"
                    tools:srcCompat="@tools:sample/avatars" />
